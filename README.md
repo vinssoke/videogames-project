@@ -54,7 +54,7 @@ Make sure you have **Node.js** installed on your machine.
 
 ### Installation
 1. Clone the repo:
-   git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/vinssoke/videogmaes-project.git)
+   git clone [https://github.com/vinssoke/videogmaes-project.git]
 
 2. Install npm install in your git bash
 
