@@ -73,33 +73,41 @@ body {
   justify-content: center; 
 }
 
-
-.service-card {
-  background-color: #1a1a1a;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 1px solid #333;
-  transition: transform 0.3s ease, border-color 0.3s ease;
-}
-
 .service-card:hover {
   transform: translateY(-10px);
   border-color: #45006f;
 }
-
 
 .card-image {
   height: 220px;
   background-size: cover;
   background-position: center;
   background-color: #2a2a2a;
+  transition: transform 0.5s ease;
 }
 
+.service-card:nth-child(1) .card-image {
+  background-image: url("/img/paisaje1.jpg");
+}
 
-.img-videojuegos { background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400'); }
-.img-opiniones { background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400'); }
-.img-fiabilidad { background-image: url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400'); }
+.service-card:nth-child(2) .card-image {
+  background-image: url("/img/paisaje2.jpg");
+}
 
+.service-card:nth-child(3) .card-image {
+  background-image: url("/img/paisaje3.jpg");
+}
+
+.service-card:hover .card-image {
+  transform: scale(1.1);
+}
+.service-card {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden; 
+  border: 1px solid #333;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
 
 .card-text {
   padding: 25px;

@@ -1,28 +1,25 @@
- import './Header.css';
+import './Header.css';
+import { Link } from 'react-router-dom';
 
- function Header() {
+function Header() {
   return (
-<header id="site-header" class="site-header">
-    <div class="header-inner">
-      <a href="#home" class="brand">
-      <img src="/img/videogames.png" alt="Logo" className="header-logo" /> </a>
+    <header id="site-header" className="site-header">
+      <div className="header-inner">
+        <Link to="/" className="brand">
+          <img src="/img/videogames.png" alt="Logo" className="header-logo" />
+        </Link>
 
-
-      <button id="nav-toggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false"
-        aria-label="Abrir menú">
-      </button>
-      <nav id="primary-nav" class="primary-nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#home">Inicio</a></li>
-          <li class="nav-item"><a href="#services">Servicios</a></li>
-          <li class="nav-item"><a href="#gallery">Galería</a></li>
-          <li class="nav-item"><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-     );
+        <nav id="primary-nav" className="primary-nav">
+          <ul className="nav-list">
+            <li className="nav-item"><Link to="/">Inicio</Link></li>
+            <li className="nav-item"><a href="#services">Servicios</a></li>
+            <li className="nav-item"><Link to="/gallery">Galería</Link></li>
+            <li className="nav-item"><Link to="/contact">Contacto</Link></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

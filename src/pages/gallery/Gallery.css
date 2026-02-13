@@ -1,0 +1,53 @@
+.gallery-wrapper {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.gallery-section {
+  padding: 60px 20px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #333;
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: translateY(-10px);
+  border-color: #45006f; 
+}
+
+.gallery-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.gallery-text h3 {
+  color: #45006f;
+  margin-bottom: 10px;
+}
+
+.gallery-text p {
+  color: #bbb;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
