@@ -1,16 +1,61 @@
-# React + Vite
+# 🎮 VideoGames Project - React Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
+<div align="center">
+  <a href="https://github.com/tu-usuario/tu-repo">
+    <img src="public/img/videogames.png" alt="Logo" width="80" height="80">
+  </a>
 
-Currently, two official plugins are available:
+  <h3 align="center">Project Web with React</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    A dynamic and responsive React application for LND class.
+    <br />
+    <a href="https://github.com/tu-usuario/tu-repo"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/tu-usuario/tu-repo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/tu-usuario/tu-repo/issues">Request Feature</a>
+  </p>
+</div>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📝 Description
+This project is a modern web application built with **React**. The main objective is to show the work that us,the students made these weeks. 
 
-## Expanding the ESLint configuration
+The home page has a simple view with the site's services, a header with the site's logo, and buttons to navigate through the pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Third-Party Components
+The following libraries and components were used to enhance the application:
+
+* **[React Router Dom](https://reactrouter.com/):** Used for seamless navigation between Home, Gallery, and Contact pages without refreshing the browser.
+* **[Font Awesome](https://fontawesome.com/):** For the high-quality social media icons located in the footer.
+
+---
+
+## 📚 Resources & Tutorials
+These resources were instrumental in the development of this project:
+
+* **[Best-README-Template](https://github.com/othneildrew/Best-README-Template):** Used as a structural guide for this documentation.
+* **[React Documentation](https://react.dev/):** For understanding hooks and component lifecycle.
+* **[CSS Grid Guide by CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/):** Essential for creating the responsive gallery layout.
+* **[W3Schools Font Awesome Tutorial](https://www.w3schools.com/icons/fontawesome5_intro.asp):** To correctly integrate icons in the footer.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have **Node.js** installed on your machine.
+
+### Installation
+1. Clone the repo:
+   git clone [https://github.com/tu-usuario/tu-repo.git](https://github.com/vinssoke/videogmaes-project.git)
+
+2. Install npm install in your git bash
+
+3. Run the command npm run dev
