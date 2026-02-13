@@ -4,8 +4,8 @@ function Contact() {
     <main>
       <section id="home" class="parallax-hero">
         <div class="home-content">
-          <h1>Bienvenido a mi pagina</h1>
-          <p>Videojuegos y demas</p>
+          <h1>Contacto de la empresa</h1>
+
         </div>
       </section>
       </main>

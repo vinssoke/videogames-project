@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000; 
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.parallax-hero {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  color: #45006f; 
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.home-content p {
+  font-size: 1.4rem;
+  color: #cccccc;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;        
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: white;
+  position: relative;
+}
+
+
+.container h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #45006f;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  width: 100%;
+  justify-content: center; 
+}
+
+
+.service-card {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #333;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  border-color: #45006f;
+}
+
+
+.card-image {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-color: #2a2a2a;
+}
+
+
+.img-videojuegos { background-image: url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=400'); }
+.img-opiniones { background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=400'); }
+.img-fiabilidad { background-image: url('https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=400'); }
+
+
+.card-text {
+  padding: 25px;
+  text-align: center;
+}
+
+.card-text h3 {
+  color: #45006f;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.card-text p {
+  color: #bbb;
+  line-height: 1.6;
+}
