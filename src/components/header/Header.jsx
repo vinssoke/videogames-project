@@ -3,13 +3,19 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <header id="site-header" className="site-header">
+    <header className="site-header">
       <div className="header-inner">
         <Link to="/" className="brand">
           <img src="/img/videogames.png" alt="Logo" className="header-logo" />
         </Link>
+        
+        <input type="checkbox" id="nav-check" className="nav-check" />
+        
+        <label htmlFor="nav-check" className="nav-toggle">
+          <span></span>
+        </label>
 
-        <nav id="primary-nav" className="primary-nav">
+        <nav className="primary-nav">
           <ul className="nav-list">
             <li className="nav-item"><Link to="/">Inicio</Link></li>
             <li className="nav-item"><a href="#services">Servicios</a></li>

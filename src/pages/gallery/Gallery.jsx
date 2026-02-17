@@ -3,42 +3,42 @@ import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 
 function Gallery() {
-  const juegos = [
+  const games = [
     {
       id: 1,
-      titulo: "Elden Ring",
-      descripcion: "Un mundo abierto épico lleno de desafíos y jefes legendarios.",
-      imagen: "/img/elden-ring.jpg"
+      title: "Elden Ring",
+      description: "Un mundo abierto épico lleno de desafíos y jefes legendarios.",
+      image: "/img/elden-ring.jpg"
     },
     {
       id: 2,
-      titulo: "Cyberpunk 2077",
-      descripcion: "Explora Night City en un futuro distópico lleno de neones.",
-      imagen: "/img/cyberpunk.jpg"
+      title: "Cyberpunk 2077",
+      description: "Explora Night City en un futuro distópico lleno de neones.",
+      image: "/img/cyberpunk.jpg"
     },
     {
       id: 3,
-      titulo: "God of War",
-      descripcion: "Kratos y Atreus en una aventura a través de la mitología nórdica.",
-      imagen: "/img/god-of-war.jpg"
+      title: "God of War",
+      description: "Kratos y Atreus en una aventura a través de la mitología nórdica.",
+      image: "/img/god-of-war.jpg"
     },
     {
       id: 4,
-      titulo: "The Witcher 3",
-      descripcion: "Caza monstruos en un mundo rico en historias y decisiones.",
-      imagen: "/img/the-witcher-3.jpg" 
+      title: "The Witcher 3",
+      description: "Caza monstruos en un mundo rico en historias y decisiones.",
+      image: "/img/the-witcher-3.jpg" 
     },
     {
       id: 5,
-      titulo: "Red Dead Redemption 2",
-      descripcion: "Una historia forajida en el corazón de los Estados Unidos.",
-      imagen: "/img/red-dead-redemption-2.jpg"
+      title: "Red Dead Redemption 2",
+      description: "Una historia forajida en el corazón de los Estados Unidos.",
+      image: "/img/red-dead-redemption-2.jpg"
     },
     {
       id: 6,
-      titulo: "Horizon Forbidden West",
-      descripcion: "Acompaña a Aloy a través de una frontera majestuosa y peligrosa.",
-      imagen: "/img/horizon.jpg"
+      title: "Horizon Forbidden West",
+      description: "Acompaña a Aloy a través de una frontera majestuosa y peligrosa.",
+      image: "/img/horizon.jpg"
     }
   ];
 
@@ -58,7 +58,7 @@ function Gallery() {
             <h2>Nuestra Colección</h2>
             
             <div className="gallery-grid">
-              {juegos.map((juego) => (
+              {games.map((juego) => (
                 <div key={juego.id} className="gallery-card">
                   <div 
                     className="gallery-image" 
