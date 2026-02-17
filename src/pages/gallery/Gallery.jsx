@@ -58,15 +58,15 @@ function Gallery() {
             <h2>Nuestra Colección</h2>
             
             <div className="gallery-grid">
-              {games.map((juego) => (
-                <div key={juego.id} className="gallery-card">
+              {games.map((games) => (
+                <div key={games.id} className="gallery-card">
                   <div 
                     className="gallery-image" 
-                    style={{ backgroundImage: `url(${juego.imagen})` }}
+                    style={{ backgroundImage: `url(${games.image})` }}
                   ></div>
                   <div className="gallery-text">
-                    <h3>{juego.titulo}</h3>
-                    <p>{juego.descripcion}</p>
+                    <h3>{games.title}</h3>
+                    <p>{games.description}</p>
                   </div>
                 </div>
               ))}
