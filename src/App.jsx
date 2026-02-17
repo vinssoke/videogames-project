@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Contact from "./pages/contact/Contact";
+import Contact from "./pages/Contact/Contact";
 import Gallery  from "./pages/gallery/gallery";
 
 function App() {

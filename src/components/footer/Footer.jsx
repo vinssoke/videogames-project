@@ -31,10 +31,9 @@ function Footer() {
         <div className="footer-column">
           <h4>Síguenos</h4>
           <div className="footer-socials">
-            <a href="#"><i className="fa-brands fa-facebook"></i></a>
-            <a href="#"><i className="fa-brands fa-twitter"></i></a>
-            <a href="#"><i className="fa-brands fa-instagram"></i></a>
-            <a href="#"><i className="fa-solid fa-circle-dot"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61588499122639"><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/WEBLND"><i className="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/videojuegoslnd?igsh=bXNvcWpxMm1hcDdv"><i className="fa-brands fa-instagram"></i></a>
           </div>
         </div>
 
