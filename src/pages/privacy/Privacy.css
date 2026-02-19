@@ -1,0 +1,53 @@
+.privacy-wrapper {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.privacy-content {
+  padding: 60px 20px;
+  max-width: 900px !important; 
+}
+
+.legal-box {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  line-height: 1.8;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.legal-section {
+  margin-bottom: 35px;
+}
+
+.legal-section h2 {
+  color: #45006f; 
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+  display: inline-block;
+}
+
+.legal-section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  color: #bbb;
+}
+
+.contact-info {
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.contact-info a {
+  color: #00d4ff;
+  text-decoration: none;
+}
