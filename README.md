@@ -44,6 +44,7 @@ These resources were instrumental in the development of this project:
 * **[React Documentation](https://react.dev/):** For understanding hooks and component lifecycle.
 * **[CSS Grid Guide by CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/):** Essential for creating the responsive gallery layout.
 * **[W3Schools Font Awesome Tutorial](https://www.w3schools.com/icons/fontawesome5_intro.asp):** To correctly integrate icons in the footer.
+* **[Ideas fro project](https://www.creativosonline.org/25-ejemplos-fantasticos-de-footers-en-diseno-web.html#google_vignette)** The idea i take to do the footer was Linga Dong.
 
 ---
 
