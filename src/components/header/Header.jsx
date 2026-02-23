@@ -18,7 +18,7 @@ function Header() {
         <nav className="primary-nav">
           <ul className="nav-list">
             <li className="nav-item"><Link to="/">Inicio</Link></li>
-            <li className="nav-item"><a href="#services">Servicios</a></li>
+            <li className="nav-item"><Link to="/opinions">Opiniones</Link></li>
             <li className="nav-item"><Link to="/gallery">Galería</Link></li>
             <li className="nav-item"><Link to="/contact">Contacto</Link></li>
           </ul>

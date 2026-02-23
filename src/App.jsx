@@ -4,6 +4,7 @@ import Contact from "./pages/Contact/Contact";
 import Gallery  from "./pages/gallery/gallery";
 import Privacy from "./pages/privacy/Privacy";
 import Terms from "./pages/terms/terms";
+import Opinions from "./pages/opinions/opinions";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
+        <Route path="/Opinions" element={<Opinions />} />
       </Routes>
     </BrowserRouter>
   );
