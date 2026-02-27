@@ -6,7 +6,7 @@ function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link to="/" className="brand">
-          <img src="/img/videogames.png" alt="Logo" className="header-logo" />
+          <img src="/img/gamers-LND-logotipo.svg" alt="Logo" className="header-logo" />
         </Link>
         
         <input type="checkbox" id="nav-check" className="nav-check" />

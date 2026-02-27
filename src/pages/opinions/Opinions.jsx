@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './Opinions.css';
 import Header from '../../components/header/Header'; 
 import Footer from '../../components/footer/Footer';
