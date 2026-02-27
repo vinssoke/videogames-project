@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer';
 function Terms() {
   return (
     <div className="privacy-wrapper">
-      <Header />
+      <Header color="purple" />
 
       <main className="privacy-main">
         <section className="parallax-hero">
@@ -57,7 +57,7 @@ function Terms() {
         </section>
       </main>
 
-      <Footer />
+       <Footer color="purple"/>
     </div>
   );
 }

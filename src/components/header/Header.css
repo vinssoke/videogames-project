@@ -1,10 +1,17 @@
 .site-header {
-  background-color: #45006f;
   padding: 10px 0;
   width: 100%;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.site-header-purple {
+  background-color: #45006f;
+}
+
+.site-header-green {
+  background-color: #15af1d;
 }
 
 .header-inner {

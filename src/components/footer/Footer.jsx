@@ -1,9 +1,9 @@
 import './Footer.css';
 import { Link } from 'react-router-dom'; 
 
-function Footer() {
+function Footer(props) {
   return (
-    <footer className="site-footer">
+    <footer className={`site-footer site-footer-${props.color}`}>
       <div className="footer-inner container">
         
         <div className="footer-column border-right">

@@ -44,7 +44,7 @@ function Gallery() {
 
   return (
     <div className="gallery-wrapper">
-      <Header />
+     <Header color="purple" />
 
       <main>
         <section className="parallax-hero">
@@ -75,7 +75,7 @@ function Gallery() {
         </section>
       </main>
 
-      <Footer />
+      <Footer color="purple"/>
     </div>
   );
 }

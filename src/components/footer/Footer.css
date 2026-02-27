@@ -1,9 +1,17 @@
 .site-footer {
-  background-color: #45006f; 
-  color: white;
-  padding: 60px 0;
+  padding: 10px 0;
   width: 100%;
-  font-family: Arial, sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.site-footer-purple {
+  background-color: #45006f;
+}
+
+.site-footer-green {
+  background-color: #aa15af;
 }
 
 .footer-inner {
@@ -69,3 +77,4 @@
 .fa-circle-dot {
   color: #00d4ff
 }
+

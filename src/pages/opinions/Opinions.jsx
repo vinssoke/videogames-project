@@ -29,7 +29,7 @@ function Opinions() {
 
   return (
     <div className="forum-wrapper">
-      <Header />
+     <Header color="purple" />
       <main>
         <section className="parallax-hero">
           <div className="home-content">
@@ -62,7 +62,7 @@ function Opinions() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer color="purple"/>
     </div>
   );
 }

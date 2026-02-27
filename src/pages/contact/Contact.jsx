@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer';
 function Contact() {
   return (
     <div className="contact-wrapper">
-      <Header />
+     <Header color="purple" />
 
       <main>
         <section className="parallax-hero">
@@ -49,7 +49,7 @@ function Contact() {
         </section>
       </main>
 
-      <Footer />
+       <Footer color="purple"/>
     </div>
   );
 }

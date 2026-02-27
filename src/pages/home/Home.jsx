@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer';
 function Home() {
   return (
     <div className="home-wrapper">
-      <Header />
+      <Header color="purple" />
 
       <main>
         <section id="home" className="parallax-hero">
@@ -49,7 +49,7 @@ function Home() {
         </section>
       </main>
 
-      <Footer />
+      <Footer color="purple"/>
     </div>
   );
 }
