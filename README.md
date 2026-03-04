@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/tu-usuario/tu-repo">
+  <a href="https://github.com/vinssoke/videogames-project">
     <img src="public/img/videogames.png" alt="Logo" width="80" height="80">
   </a>
 
