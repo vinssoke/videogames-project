@@ -7,17 +7,6 @@
   </a>
 
   <h3 align="center">Project Web with React</h3>
-
-  <p align="center">
-    A dynamic and responsive React application for LND class.
-    <br />
-    <a href="https://github.com/tu-usuario/tu-repo"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/tu-usuario/tu-repo/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/tu-usuario/tu-repo/issues">Request Feature</a>
-  </p>
 </div>
 
 ---
