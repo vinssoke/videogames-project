@@ -18,7 +18,6 @@ function Rss() {
           <div className="rss-button-group">
             <a
               href="/News.xml"
-              target="_blank"
               rel="noopener noreferrer"
               className="rss-link-button"
             >
