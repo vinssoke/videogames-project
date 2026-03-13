@@ -8,28 +8,28 @@ function Footer(props) {
         
         <div className="footer-column border-right">
           <h4>Sobre</h4>
-          <p>Redes</p>
+          <p>Links</p>
           <div className="footer-legal-box">
             <p>&copy; 2026 VideoGames - Todos los derechos reservados</p>
             <div className="legal-links">
               <Link to="/privacy">Política de Privacidad</Link> | 
-             <Link to="/terms">Condiciones de venta</Link> 
+              <Link to="/terms">Condiciones de venta</Link> 
               <a href="https://github.com/vinssoke" target="_blank" rel="noopener noreferrer"> Pagina de Github</a>
             </div>
           </div>
         </div>
 
-  <div className="footer-column border-right">
+        <div className="footer-column border-right">
           <h4>Navegación</h4>
           <ul className="footer-links">
-            <li>Inicio</li>
+            <li><Link to="/">Inicio</Link></li>
             <li>Sobre</li>
             <li>Reseña</li>
             <li>Galería</li>
             <li>Contacto</li>
           </ul>
-
         </div>
+
         <div className="footer-column">
           <h4>Síguenos</h4>
           <div className="footer-socials">
@@ -42,6 +42,9 @@ function Footer(props) {
             <a href="https://www.instagram.com/videojuegoslnd?igsh=bXNvcWpxMm1hcDdv" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram"></i>
             </a>
+            <Link to="/rss" className="rss-link">
+              <i className="fa-solid fa-rss"></i>
+            </Link>
           </div>
         </div>
 

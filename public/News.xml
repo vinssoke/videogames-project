@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VideoGames News - Actualidad Real</title>
+    <link>https://vinssoke.github.io</link>
+    <description>Resumen de las noticias más importantes de la industria de los videojuegos.</description>
+    <language>es-es</language>
+    <lastDate>Tue, 21 May 2024 12:00:00 +0000</lastDate>
+
+    <item>
+      <title>GTA VI confirma su ventana de lanzamiento para otoño de 2025</title>
+      <link>https://www.rockstargames.com/vi</link>
+      <pubDate>Thu, 16 May 2024 18:00:00 +0000</pubDate>
+      <description>Take-Two Interactive ha confirmado oficialmente que Grand Theft Auto VI llegará a PS5 y Xbox Series X/S en el otoño de 2025. El juego nos llevará de vuelta a Vice City en la experiencia más ambiciosa de Rockstar hasta la fecha.</description>
+    </item>
+
+    <item>
+      <title>Nintendo confirma que anunciará la sucesora de Switch este año fiscal</title>
+      <link>https://www.nintendo.co.jp/ir/en/</link>
+      <guid>https://nintendo-ir-successor-announcement</guid>
+      <pubDate>Tue, 07 May 2024 10:00:00 +0000</pubDate>
+      <description>El presidente de Nintendo, Shuntaro Furukawa, anunció que la compañía revelará información sobre la sucesora de Nintendo Switch antes de marzo de 2025, marcando el fin de una era para la consola híbrida.</description>
+    </item>
+
+    <item>
+      <title>Elden Ring: Shadow of the Erdtree se prepara para su lanzamiento global</title>
+      <link>https://www.bandainamcoent.com/games/elden-ring/shadow-of-the-erdtree</link>
+      <guid>https://bandainamco-elden-ring-dlc-june</guid>
+      <pubDate>Mon, 20 May 2024 09:30:00 +0000</pubDate>
+      <description>La expansión más grande de FromSoftware hasta la fecha, Shadow of the Erdtree, introduce una nueva región llamada la Tierra de las Sombras, nuevos jefes desafiantes y mecánicas de progresión únicas.</description>
+    </item>
+
+    <item>
+      <title>Sony anuncia nuevos detalles sobre Astro Bot y sus próximos exclusivos</title>
+      <link>https://blog.playstation.com/</link>
+      <guid>https://blog-playstation-state-of-play-2024</guid>
+      <pubDate>Fri, 31 May 2024 22:00:00 +0000</pubDate>
+      <description>Tras el éxito de Astro's Playroom, Team Asobi presenta una aventura completa de Astro Bot con más de 80 niveles y mecánicas que aprovechan al máximo el mando DualSense.</description>
+    </item>
+
+  </channel>
+</rss>

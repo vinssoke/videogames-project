@@ -66,7 +66,7 @@
   color: #ccc;
 }
 
-/* --- NEW BUTTON STYLES --- */
+
 .button-container {
   margin-top: 25px;
   display: flex;
@@ -97,4 +97,43 @@
     grid-template-columns: 1fr;
     padding: 0 20px;
   }
+}
+
+
+.form-card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.forum-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 30px;
+  border: 2px solid #45006f;
+  background: #000;
+  color: white;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #00d4ff;
+}
+
+textarea.form-input {
+  border-radius: 15px;
+  resize: none;
+}
+
+.delete-btn:hover {
+  background-color: #7a0000;
+  border-color: #ff4444;
 }
