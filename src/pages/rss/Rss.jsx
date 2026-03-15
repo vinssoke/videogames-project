@@ -29,7 +29,7 @@ function Rss() {
         <div className="rss-container">
           <h1 className="rss-title">Últimas noticias en formato RSS</h1>
           <p className="rss-subtitle">
-            Análisis exhaustivo y cobertura detallada de los eventos más relevantes en la industria del gaming.
+            Análisis exhaustivo y cobertura detallada de los eventos más relevantes en la industria del gaming
           </p>
 
           <div className="news-stack">
