@@ -17,7 +17,12 @@ This project is a modern web application built with **React**. The main objectiv
 The home page has a simple view with the site's services, a header with the site's logo, and buttons to navigate through the pages.
 
 
+
 ---
+
+
+---
+
 
 ## 🛠️ Third-Party Components
 The following libraries and components were used to enhance the application:
@@ -50,6 +55,7 @@ Make sure you have **Node.js** installed on your machine.
 2. Install npm install in your git bash
 
 3. Run the command npm run dev
+
 
 
 
