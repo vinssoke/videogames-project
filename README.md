@@ -50,9 +50,4 @@ Make sure you have **Node.js** installed on your machine.
 
 3. Run the command npm run dev
 
-Proof of the RSS
-<p align="center">
-  <img src="./public/img/xml-proof.png" alt="Prueba de XML" width="600">
-</p>
-
 
