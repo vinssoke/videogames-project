@@ -1,41 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VideoGames News - Actualidad Real</title>
-    <link>https://vinssoke.github.io</link>
-    <description>Resumen de las noticias más importantes de la industria de los videojuegos.</description>
+    <title>VideoGames LND - Noticias</title>
+    <link>https://fir-tibu.web.app/rss</link>
+    <description>Análisis profundo y resúmenes de la industria del videojuego.</description>
     <language>es-es</language>
-    <lastDate>Tue, 21 May 2024 12:00:00 +0000</lastDate>
+    <lastBuildDate>Sun, 15 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fir-tibu.web.app/News.xml" rel="self" type="application/rss+xml" />
 
     <item>
-      <title>GTA VI confirma su ventana de lanzamiento para otoño de 2025</title>
-      <link>https://www.rockstargames.com/vi</link>
-      <pubDate>Thu, 16 May 2024 18:00:00 +0000</pubDate>
-      <description>Take-Two Interactive ha confirmado oficialmente que Grand Theft Auto VI llegará a PS5 y Xbox Series X/S en el otoño de 2025. El juego nos llevará de vuelta a Vice City en la experiencia más ambiciosa de Rockstar hasta la fecha.</description>
+      <title>GTA VI: Revolución técnica en 2025</title>
+      <link>https://fir-tibu.web.app/rss#noticia-1</link>
+      <guid isPermaLink="false">noticia-1-2026</guid>
+      <description>Rockstar Games detalla mejoras en IA y físicas para el lanzamiento de GTA VI.</description>
+      <pubDate>Sun, 15 Mar 2026 10:00:00 +0000</pubDate>
     </item>
 
     <item>
-      <title>Nintendo confirma que anunciará la sucesora de Switch este año fiscal</title>
-      <link>https://www.nintendo.co.jp/ir/en/</link>
-      <guid>https://nintendo-ir-successor-announcement</guid>
-      <pubDate>Tue, 07 May 2024 10:00:00 +0000</pubDate>
-      <description>El presidente de Nintendo, Shuntaro Furukawa, anunció que la compañía revelará información sobre la sucesora de Nintendo Switch antes de marzo de 2025, marcando el fin de una era para la consola híbrida.</description>
+      <title>Nintendo Switch 2: Potencia y retrocompatibilidad</title>
+      <link>https://fir-tibu.web.app/rss#noticia-2</link>
+      <guid isPermaLink="false">noticia-2-2026</guid>
+      <description>La nueva consola de Nintendo soportará 4K y mantendrá tu biblioteca actual de juegos.</description>
+      <pubDate>Sat, 14 Mar 2026 15:30:00 +0000</pubDate>
     </item>
 
     <item>
-      <title>Elden Ring: Shadow of the Erdtree se prepara para su lanzamiento global</title>
-      <link>https://www.bandainamcoent.com/games/elden-ring/shadow-of-the-erdtree</link>
-      <guid>https://bandainamco-elden-ring-dlc-june</guid>
-      <pubDate>Mon, 20 May 2024 09:30:00 +0000</pubDate>
-      <description>La expansión más grande de FromSoftware hasta la fecha, Shadow of the Erdtree, introduce una nueva región llamada la Tierra de las Sombras, nuevos jefes desafiantes y mecánicas de progresión únicas.</description>
-    </item>
-
-    <item>
-      <title>Sony anuncia nuevos detalles sobre Astro Bot y sus próximos exclusivos</title>
-      <link>https://blog.playstation.com/</link>
-      <guid>https://blog-playstation-state-of-play-2024</guid>
-      <pubDate>Fri, 31 May 2024 22:00:00 +0000</pubDate>
-      <description>Tras el éxito de Astro's Playroom, Team Asobi presenta una aventura completa de Astro Bot con más de 80 niveles y mecánicas que aprovechan al máximo el mando DualSense.</description>
+      <title>Elden Ring: El éxito de Shadow of the Erdtree</title>
+      <link>https://fir-tibu.web.app/rss#noticia-3</link>
+      <guid isPermaLink="false">noticia-3-2026</guid>
+      <description>La expansión de FromSoftware redefine los estándares de calidad para el contenido descargable.</description>
+      <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
     </item>
 
   </channel>

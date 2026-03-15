@@ -22,7 +22,7 @@ function Footer(props) {
         <div className="footer-column border-right">
           <h4>Navegación</h4>
           <ul className="footer-links">
-            <li><Link to="/">Inicio</Link></li>
+            <li>Inicio</li>
             <li>Sobre</li>
             <li>Reseña</li>
             <li>Galería</li>
