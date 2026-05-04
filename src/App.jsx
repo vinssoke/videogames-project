@@ -6,6 +6,8 @@ import Privacy from "./pages/privacy/Privacy";
 import Terms from "./pages/terms/terms";
 import Opinions from "./pages/opinions/opinions";
 import Rss from "./pages/rss/Rss";
+import Import from "./pages/import/Import";
+import Export from "./pages/export/export";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/Opinions" element={<Opinions />} />
         <Route path="/Rss" element={<Rss />} />
+        <Route path="/import" element={<Import />} />
+        <Route path="/export" element={<Export />} />
       </Routes>
     </BrowserRouter>
   );

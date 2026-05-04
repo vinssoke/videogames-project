@@ -1,0 +1,144 @@
+.import-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  color: #111827;
+  min-height: 100vh;
+}
+
+.import-page h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.import-subtitle {
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.import-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #111827;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #374151;
+}
+.btn-secondary {
+  background-color: #ffffff;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #f3f4f6;
+}
+
+.import-error {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fee2e2;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.import-results {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.import-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1.25rem;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.import-filename {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.import-count {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+.import-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.import-table th {
+  background-color: #f9fafb;
+  color: #4b5563;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  border-bottom: 1px solid #d1d5db;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.import-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #f3f4f6;
+  color: #374151;
+}
+
+.import-table tr:last-child td {
+  border-bottom: none;
+}
+
+.import-table tr:hover td {
+  background-color: #f9fafb;
+}
+
+.import-json {
+  padding: 1rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background-color: #ffffff;
+  margin: 0;
+  color: #111827;
+}
+
+.import-empty {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #6b7280;
+  background-color: #ffffff;
+  border: 2px dashed #d1d5db;
+  border-radius: 8px;
+}
