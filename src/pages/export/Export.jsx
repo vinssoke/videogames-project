@@ -42,9 +42,7 @@ useEffect(() => {
   onValue(dataRef, (snapshot) => {
     const raw = snapshot.val();
 
-    console.log("🔥 RAW:", raw); // para comprobar
-
-    // 🔥 SOLUCIÓN AQUÍ
+    console.log("🔥 RAW:", raw); 
     const firebaseData = raw?.municipios || raw;
 
     if (firebaseData) {

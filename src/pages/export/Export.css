@@ -2,36 +2,33 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #f9fafb; /* 👈 mejora contraste general */
+  background-color: #f9fafb; 
   color: #111827;
 }
 
-/* Título */
+
 .export-page h1 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   color: #111827;
 }
 
-/* Subtítulo */
 .export-subtitle {
-  color: #4b5563; /* más visible */
+  color: #4b5563; 
   margin-bottom: 2rem;
 }
 
-/* CARD */
 .export-card {
-  border: 1px solid #d1d5db; /* más visible */
+  border: 1px solid #d1d5db; 
   border-radius: 8px;
   padding: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   background-color: #ffffff;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* 👈 mejora visual */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); 
 }
 
-/* HEADER */
 .export-card h2 {
   font-size: 1.1rem;
   font-weight: 600;
@@ -39,14 +36,12 @@
   color: #111827;
 }
 
-/* DESCRIPCIÓN */
 .export-description {
   font-size: 0.85rem;
-  color: #6b7280; /* más contraste */
+  color: #6b7280; 
   flex: 1;
 }
 
-/* BOTÓN */
 .btn-export {
   background-color: #111827;
   color: white;
