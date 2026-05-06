@@ -30,7 +30,7 @@ function Contact() {
                 ></iframe>
               </div>
               <div className="contact-container">
-                <h2>Mandanos un mensaje</h2>
+                <h2>Mandanos un mensaje.</h2>
                 <form className="contact-form">
                   <div className="form-group">
                     <label htmlFor="name">Nombre</label>
