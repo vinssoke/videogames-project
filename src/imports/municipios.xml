@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<municipios>
+  <municipio>
+    <año>2020</año>
+    <nombre>Telde</nombre>
+    <poblacion>102647</poblacion>
+  </municipio>
+  <municipio>
+    <año>2020</año>
+    <nombre>Santa Lucía</nombre>
+    <poblacion>70235</poblacion>
+  </municipio>
+</municipios>
