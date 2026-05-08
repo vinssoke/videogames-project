@@ -21,9 +21,9 @@ The application features a responsive home page, a service view, a specialized h
 ## 📥 Data Import Examples (15% Grade)
 The following files are examples of the data structures supported by the application for importing videogame information:
 
-*   [📄 Example Import - JSON format](./imports/videogames.json)
-*   [📊 Example Import - CSV format](./imports/videogames.csv)
-*   [🗄️ Example Import - XML format](./imports/videogames.xml)
+*   [📄 Example Import - JSON format](src\imports\games.csv)
+*   [📊 Example Import - CSV format](src\imports\games.json)
+*   [🗄️ Example Import - XML format](src\imports\games.xml)
 
 > **Note:** These files are located in the `/imports` directory and follow the required schema for the application to function correctly.
 
