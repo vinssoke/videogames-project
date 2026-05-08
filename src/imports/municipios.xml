@@ -1,13 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<municipios>
-  <municipio>
-    <año>2020</año>
-    <nombre>Telde</nombre>
-    <poblacion>102647</poblacion>
-  </municipio>
-  <municipio>
-    <año>2020</año>
-    <nombre>Santa Lucía</nombre>
-    <poblacion>70235</poblacion>
-  </municipio>
-</municipios>
+<resenas>
+
+    <resena id="1">
+        <usuario>MarcoGamer92</usuario>
+        <videojuego>The Elder Scrolls V: Skyrim</videojuego>
+        <puntuacion>9</puntuacion>
+        <fecha>
+            <dia>3</dia>
+            <mes>1</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Una historia épica con un sistema de combate muy bien pulido. Horas y horas de contenido.</comentario>
+    </resena>
+
+    <resena id="2">
+        <usuario>LauraPixel</usuario>
+        <videojuego>Hollow Knight</videojuego>
+        <puntuacion>8</puntuacion>
+        <fecha>
+            <dia>15</dia>
+            <mes>2</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Niveles muy creativos y música increíble. Se echa de menos más variedad de enemigos.</comentario>
+    </resena>
+
+    <resena id="3">
+        <usuario>CarlosSniper</usuario>
+        <videojuego>Call of Duty: Modern Warfare III</videojuego>
+        <puntuacion>7</puntuacion>
+        <fecha>
+            <dia>22</dia>
+            <mes>2</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Buen multijugador online, aunque el modo campaña es algo corto para lo que se pide.</comentario>
+    </resena>
+
+    <resena id="4">
+        <usuario>SofiaStrategy</usuario>
+        <videojuego>Civilization VII</videojuego>
+        <puntuacion>10</puntuacion>
+        <fecha>
+            <dia>8</dia>
+            <mes>3</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Absolutamente adictivo. La curva de dificultad está perfectamente equilibrada.</comentario>
+    </resena>
+
+    <resena id="5">
+        <usuario>MiguelHorror</usuario>
+        <videojuego>Resident Evil 4 Remake</videojuego>
+        <puntuacion>6</puntuacion>
+        <fecha>
+            <dia>30</dia>
+            <mes>3</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Tiene momentos de tensión genuina, pero los sustos facilones acaban por cansar.</comentario>
+    </resena>
+
+    <resena id="6">
+        <usuario>AnaRacing</usuario>
+        <videojuego>Forza Motorsport</videojuego>
+        <puntuacion>8</puntuacion>
+        <fecha>
+            <dia>12</dia>
+            <mes>4</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Físicas muy realistas y una cantidad brutal de coches licenciados. El mejor del género.</comentario>
+    </resena>
+
+    <resena id="7">
+        <usuario>DiegoFight</usuario>
+        <videojuego>Tekken 8</videojuego>
+        <puntuacion>7</puntuacion>
+        <fecha>
+            <dia>5</dia>
+            <mes>5</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Roster amplio y mecánicas sólidas, aunque al online le falta trabajo en la conexión.</comentario>
+    </resena>
+
+    <resena id="8">
+        <usuario>PaulaAdventure</usuario>
+        <videojuego>The Legend of Zelda: Tears of the Kingdom</videojuego>
+        <puntuacion>9</puntuacion>
+        <fecha>
+            <dia>20</dia>
+            <mes>5</mes>
+            <anio>2025</anio>
+        </fecha>
+        <comentario>Mundo abierto precioso con una narrativa que engancha desde el primer minuto.</comentario>
+    </resena>
+
+</resenas>

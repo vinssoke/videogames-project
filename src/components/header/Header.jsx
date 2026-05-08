@@ -33,6 +33,12 @@ function Header(props) {
             <li className="nav-item">
               <Link to="/contact">Contacto</Link>
             </li>
+            <li className="nav-item">
+              <Link to="/export">Exportar</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/import">Importar</Link>
+            </li>
           </ul>
         </nav>
       </div>
