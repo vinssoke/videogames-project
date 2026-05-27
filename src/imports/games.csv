@@ -1,9 +1,9 @@
-id,usuario,videojuego,puntuacion,dia,mes,anio,comentario
-1,MarcoGamer92,The Elder Scrolls V: Skyrim,9,3,1,2025,"Una historia épica con un sistema de combate muy bien pulido. Horas y horas de contenido."
-2,LauraPixel,Hollow Knight,8,15,2,2025,"Niveles muy creativos y música increíble. Se echa de menos más variedad de enemigos."
-3,CarlosSniper,Call of Duty: Modern Warfare III,7,22,2,2025,"Buen multijugador online, aunque el modo campaña es algo corto para lo que se pide."
-4,SofiaStrategy,Civilization VII,10,8,3,2025,"Absolutamente adictivo. La curva de dificultad está perfectamente equilibrada."
-5,MiguelHorror,Resident Evil 4 Remake,6,30,3,2025,"Tiene momentos de tensión genuina, pero los sustos facilones acaban por cansar."
-6,AnaRacing,Forza Motorsport,8,12,4,2025,"Físicas muy realistas y una cantidad brutal de coches licenciados. El mejor del género."
-7,DiegoFight,Tekken 8,7,5,5,2025,"Roster amplio y mecánicas sólidas, aunque al online le falta trabajo en la conexión."
-8,PaulaAdventure,The Legend of Zelda: Tears of the Kingdom,9,20,5,2025,"Mundo abierto precioso con una narrativa que engancha desde el primer minuto."
+id,usuario,videojuego,puntuacion,comentario,fecha_dia,fecha_mes,fecha_anio
+resena001,MarcoGamer92,The Elder Scrolls V: Skyrim,9,"Una historia épica con un sistema de combate muy bien pulido. Horas y horas de contenido.",3,1,2025
+resena002,LauraPixel,Hollow Knight,8,"Niveles muy creativos y música increíble. Se echa de menos más variedad de enemigos.",15,2,2025
+resena003,CarlosSniper,Call of Duty: Modern Warfare III,7,"Buen multijugador online, aunque el modo campaña es algo corto para lo que se pide.",22,2,2025
+resena004,SofiaStrategy,Civilization VII,10,"Absolutamente adictivo. La curva de dificultad está perfectamente equilibrada.",8,3,2025
+resena005,MiguelHorror,Resident Evil 4 Remake,6,"Tiene momentos de tensión genuina, pero los sustos facilones acaban por cansar.",30,3,2025
+resena006,AnaRacing,Forza Motorsport,8,"Físicas muy realistas y una cantidad brutal de coches licenciados. El mejor del género.",12,4,2025
+resena007,DiegoFight,Tekken 8,7,"Roster amplio y mecánicas sólidas, aunque al online le falta trabajo en la conexión.",5,5,2025
+resena008,PaulaAdventure,The Legend of Zelda: Tears of the Kingdom,9,"Mundo abierto precioso con una narrativa que engancha desde el primer minuto.",20,5,2025

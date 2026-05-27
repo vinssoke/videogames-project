@@ -1,100 +1,60 @@
 {
-    "resenas": [
-        {
-            "id": 1,
-            "usuario": "MarcoGamer92",
-            "videojuego": "The Elder Scrolls V: Skyrim",
-            "puntuacion": 9,
-            "fecha": {
-                "dia": 3,
-                "mes": 1,
-                "anio": 2025
-            },
-            "comentario": "Una historia épica con un sistema de combate muy bien pulido. Horas y horas de contenido."
-        },
-        {
-            "id": 2,
-            "usuario": "LauraPixel",
-            "videojuego": "Hollow Knight",
-            "puntuacion": 8,
-            "fecha": {
-                "dia": 15,
-                "mes": 2,
-                "anio": 2025
-            },
-            "comentario": "Niveles muy creativos y música increíble. Se echa de menos más variedad de enemigos."
-        },
-        {
-            "id": 3,
-            "usuario": "CarlosSniper",
-            "videojuego": "Call of Duty: Modern Warfare III",
-            "puntuacion": 7,
-            "fecha": {
-                "dia": 22,
-                "mes": 2,
-                "anio": 2025
-            },
-            "comentario": "Buen multijugador online, aunque el modo campaña es algo corto para lo que se pide."
-        },
-        {
-            "id": 4,
-            "usuario": "SofiaStrategy",
-            "videojuego": "Civilization VII",
-            "puntuacion": 10,
-            "fecha": {
-                "dia": 8,
-                "mes": 3,
-                "anio": 2025
-            },
-            "comentario": "Absolutamente adictivo. La curva de dificultad está perfectamente equilibrada."
-        },
-        {
-            "id": 5,
-            "usuario": "MiguelHorror",
-            "videojuego": "Resident Evil 4 Remake",
-            "puntuacion": 6,
-            "fecha": {
-                "dia": 30,
-                "mes": 3,
-                "anio": 2025
-            },
-            "comentario": "Tiene momentos de tensión genuina, pero los sustos facilones acaban por cansar."
-        },
-        {
-            "id": 6,
-            "usuario": "AnaRacing",
-            "videojuego": "Forza Motorsport",
-            "puntuacion": 8,
-            "fecha": {
-                "dia": 12,
-                "mes": 4,
-                "anio": 2025
-            },
-            "comentario": "Físicas muy realistas y una cantidad brutal de coches licenciados. El mejor del género."
-        },
-        {
-            "id": 7,
-            "usuario": "DiegoFight",
-            "videojuego": "Tekken 8",
-            "puntuacion": 7,
-            "fecha": {
-                "dia": 5,
-                "mes": 5,
-                "anio": 2025
-            },
-            "comentario": "Roster amplio y mecánicas sólidas, aunque al online le falta trabajo en la conexión."
-        },
-        {
-            "id": 8,
-            "usuario": "PaulaAdventure",
-            "videojuego": "The Legend of Zelda: Tears of the Kingdom",
-            "puntuacion": 9,
-            "fecha": {
-                "dia": 20,
-                "mes": 5,
-                "anio": 2025
-            },
-            "comentario": "Mundo abierto precioso con una narrativa que engancha desde el primer minuto."
-        }
-    ]
+  "resenas": {
+    "resena001": {
+      "usuario": "MarcoGamer92",
+      "videojuego": "The Elder Scrolls V: Skyrim",
+      "puntuacion": 9,
+      "comentario": "Una historia épica con un sistema de combate muy bien pulido. Horas y horas de contenido.",
+      "fecha": { "dia": 3, "mes": 1, "anio": 2025 }
+    },
+    "resena002": {
+      "usuario": "LauraPixel",
+      "videojuego": "Hollow Knight",
+      "puntuacion": 8,
+      "comentario": "Niveles muy creativos y música increíble. Se echa de menos más variedad de enemigos.",
+      "fecha": { "dia": 15, "mes": 2, "anio": 2025 }
+    },
+    "resena003": {
+      "usuario": "CarlosSniper",
+      "videojuego": "Call of Duty: Modern Warfare III",
+      "puntuacion": 7,
+      "comentario": "Buen multijugador online, aunque el modo campaña es algo corto para lo que se pide.",
+      "fecha": { "dia": 22, "mes": 2, "anio": 2025 }
+    },
+    "resena004": {
+      "usuario": "SofiaStrategy",
+      "videojuego": "Civilization VII",
+      "puntuacion": 10,
+      "comentario": "Absolutamente adictivo. La curva de dificultad está perfectamente equilibrada.",
+      "fecha": { "dia": 8, "mes": 3, "anio": 2025 }
+    },
+    "resena005": {
+      "usuario": "MiguelHorror",
+      "videojuego": "Resident Evil 4 Remake",
+      "puntuacion": 6,
+      "comentario": "Tiene momentos de tensión genuina, pero los sustos facilones acaban por cansar.",
+      "fecha": { "dia": 30, "mes": 3, "anio": 2025 }
+    },
+    "resena006": {
+      "usuario": "AnaRacing",
+      "videojuego": "Forza Motorsport",
+      "puntuacion": 8,
+      "comentario": "Físicas muy realistas y una cantidad brutal de coches licenciados. El mejor del género.",
+      "fecha": { "dia": 12, "mes": 4, "anio": 2025 }
+    },
+    "resena007": {
+      "usuario": "DiegoFight",
+      "videojuego": "Tekken 8",
+      "puntuacion": 7,
+      "comentario": "Roster amplio y mecánicas sólidas, aunque al online le falta trabajo en la conexión.",
+      "fecha": { "dia": 5, "mes": 5, "anio": 2025 }
+    },
+    "resena008": {
+      "usuario": "PaulaAdventure",
+      "videojuego": "The Legend of Zelda: Tears of the Kingdom",
+      "puntuacion": 9,
+      "comentario": "Mundo abierto precioso con una narrativa que engancha desde el primer minuto.",
+      "fecha": { "dia": 20, "mes": 5, "anio": 2025 }
+    }
+  }
 }
