@@ -7,10 +7,12 @@ import "./Export.css";
 
 const generateCSV = (data) => {
   if (!data.length) return "";
-  const headers = ["usuario", "videojuego", "puntuacion", "comentario", "fecha"];
+  // Envuelve el valor entre comillas y escapa las comillas internas
+  const escape = (val) => `"${String(val ?? "").replace(/"/g, '""')}"`;
+  const headers = ["usuario", "videojuego", "puntuacion", "comentario", "fecha"].map(escape);
   const rows = data.map((row) => {
     const fecha = row.fecha ? `${row.fecha.dia}/${row.fecha.mes}/${row.fecha.anio}` : "";
-    return [row.usuario, row.videojuego, row.puntuacion, row.comentario, fecha].join(",");
+    return [row.usuario, row.videojuego, row.puntuacion, row.comentario, fecha].map(escape).join(",");
   });
   return [headers.join(","), ...rows].join("\n");
 };
